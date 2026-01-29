@@ -54,7 +54,7 @@ This README is written to help you understand:
 
 ---
 <img 
-    src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%201/Copilot_20260129_033931.png" 
+    src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%202/Copilot_20260129_033931.png" 
     alt="Robo-Knight Canonical Shine" 
     style="max-width:100%; height:auto;"
 />
