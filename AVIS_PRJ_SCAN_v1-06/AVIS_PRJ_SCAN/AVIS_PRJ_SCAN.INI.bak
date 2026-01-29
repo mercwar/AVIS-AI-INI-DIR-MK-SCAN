@@ -1,0 +1,8 @@
+; ============================================
+; AVIS PROJECT SCAN CONFIG
+; Generated: Thu 01/29/2026  2:36:48.53
+; ============================================
+REMDRV=H:
+PROJECT_ROOT=H:\htdocs\robo-knight\AI_AVIS_FVS\
+PROJECT_APPROOT=AVIS_PRJ_SCAN\
+
