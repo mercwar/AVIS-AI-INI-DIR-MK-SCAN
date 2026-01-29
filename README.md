@@ -5,8 +5,12 @@
 **Edition:** GitHub Publication Release  
 
 ---
+<img 
+    src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%201/Copilot_20260129_033032.png" 
+    alt="Robo-Knight Canonical Shine" 
+    style="max-width:100%; height:auto;"
+/>
 
-`https://dummyimage.com/900x140/000000/00ffcc&text=AVIS+PROJECT+SCANNER`
 
 ---
 
