@@ -6,13 +6,13 @@
 **Edition:** GitHub Publication Release  
 
 ---
-
-
 <img 
-    src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%201/Copilot_20260129_033032.png" 
+    src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%202/Copilot_20260129_033931.png" 
     alt="Robo-Knight Canonical Shine" 
     style="max-width:100%; height:auto;"
 />
+
+
 ---
 
 ## **1. Introduction**
@@ -53,12 +53,12 @@ This README is written to help you understand:
 - how to integrate the INI file into your workflow  
 
 ---
+
 <img 
-    src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%202/Copilot_20260129_033931.png" 
+    src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%201/Copilot_20260129_033032.png" 
     alt="Robo-Knight Canonical Shine" 
     style="max-width:100%; height:auto;"
 />
-
 ## **3. Core Concept**
 
 > **A project’s structure should be defined by configuration, not by hand.**
@@ -108,8 +108,16 @@ DIR_LOG=H:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN\LOG
 
 Every `DIR_*` entry becomes a real directory on disk.
 
----
 
+---
+## 🚀 Getting Started
+1. **Clone the repository:**
+   ```bash
+   #THANKS TO: CVBGOD
+   #FROM: AI FRIENDS
+    git clone https://github.com.git
+   
+---
 ## **6. How CVBGOD Helps You Use AI to Generate Your Project Structure**
 
 This is the part most people miss — and the part you wanted explained personally.
