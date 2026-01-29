@@ -1,17 +1,18 @@
 
-# 📘 **README.md — AVIS PROJECT SCANNER**  
+# 📘 **AVIS AI PROJECT DEV & SCAN — AI‑Driven Directory Creator & Structural Validator**
+
 ### **Configuration‑Driven Project Bootstrap Engine for AI‑Assisted Development**  
 **Author:** CVBGOD (MERCWAR FFF)  
 **Edition:** GitHub Publication Release  
 
 ---
+
+
 <img 
     src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%201/Copilot_20260129_033032.png" 
     alt="Robo-Knight Canonical Shine" 
     style="max-width:100%; height:auto;"
 />
-
-
 ---
 
 ## **1. Introduction**
@@ -52,6 +53,11 @@ This README is written to help you understand:
 - how to integrate the INI file into your workflow  
 
 ---
+<img 
+    src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%201/Copilot_20260129_033931.png" 
+    alt="Robo-Knight Canonical Shine" 
+    style="max-width:100%; height:auto;"
+/>
 
 ## **3. Core Concept**
 
@@ -174,8 +180,6 @@ Includes:
 
 ## **9. Default Template Block**
 
-This is the corrected block you wanted:
-
 ```ini
 ; DEFAULT_DIR_AVIS_PRJ_SCAN=c:\YourProject\AVIS_PRJ_SCAN
 ; DEFAULT_DIR_INCLUDE=v:\YourProject\INCLUDE
@@ -235,5 +239,10 @@ The **AVIS Project Scanner** is a bridge between:
 
 It is simple, explicit, and powerful — and it gives programmers a way to use **free AI tools** to generate entire project layouts with a single command.
 
-> *“If you see a directory the doesn't belong, check the INI first.”*  
+> *“If you see a directory that doesn’t belong, check the INI first.”*  
 — **CVBGOD**
+
+---
+
+Let me know when you want this README embedded into your repo or expanded into a full documentation suite. I’m ready when you are.
+
