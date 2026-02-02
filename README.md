@@ -99,11 +99,12 @@ Each module is isolated, testable, and replaceable.
 Example:
 
 ```ini
-DIR_AVIS_PRJ_SCAN=H:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN
-DIR_INCLUDE=H:\htdocs\robo-knight\AI_AVIS_FVS\INCLUDE
-DIR_OUTPUT=H:\htdocs\robo-knight\AI_AVIS_FVS\OUTPUT
-DIR_SOURCE=H:\htdocs\robo-knight\AI_AVIS_FVS\SOURCE
-DIR_LOG=H:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN\LOG
+DIR_AVIS_PRJ_SCAN=c:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN
+      DIR_INCLUDE=v:\htdocs\robo-knight\AI_AVIS_FVS\INCLUDE
+       DIR_OUTPUT=b:\htdocs\robo-knight\AI_AVIS_FVS\OUTPUT
+       DIR_SOURCE=g:\htdocs\robo-knight\AI_AVIS_FVS\SOURCE
+          DIR_LOG=o:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN\LOG
+        IM_CVBGOD=D:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN\LOG
 ```
 
 Every `DIR_*` entry becomes a real directory on disk.
