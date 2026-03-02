@@ -1,6 +1,5 @@
 @echo off
 setlocal EnableExtensions EnableDelayedExpansion
-
 :: ============================================================================
 :: AVIS PROJECT SCAN — DYNAMIC INI IMPORT SYSTEM
 :: ============================================================
