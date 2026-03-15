@@ -200,8 +200,6 @@ Includes:
 
 Use this as a starting point for new projects.
 
----
-
 ## **10. Visual Overview**
 
 ```
@@ -253,5 +251,17 @@ It is simple, explicit, and powerful — and it gives programmers a way to use *
 
 ---
 
-Let me know when you want this README embedded into your repo or expanded into a full documentation suite. I’m ready when you are.
 
+### 🛡️ **COPYRIGHT NOTICE**
+
+© 2026 CVBGOD / Mercwar / Robo‑Knight Universe  
+All Rights Reserved.
+
+This repository, its modules, naming conventions, AVIS law,  
+and the Robo‑Knight / CVBGOD universe are original works  
+created and owned by the repository author.
+
+Unauthorized copying, redistribution, or derivative works  
+are prohibited without explicit permission.
+
+---
