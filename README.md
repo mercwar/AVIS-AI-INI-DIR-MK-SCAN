@@ -1,6 +1,6 @@
 
 # 📘 **AVIS AI PROJECT DEV & SCAN — AI‑Driven Directory Creator & Structural Validator**
-
+# 📘 **NEW VERSION 2.0 WITH SOUCE CODE MERGE TEXT PRINTER**
 ### **Configuration‑Driven Project Bootstrap Engine for AI‑Assisted Development**  
 **Author:** CVBGOD (MERCWAR FFF)  
 **Edition:** GitHub Publication Release  
