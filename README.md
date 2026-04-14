@@ -1,174 +1,189 @@
-# 📘 **NEW VERSION 2.0 WITH SOUCE CODE MERGE *.TXT PRINTER**
-## 📘 **AVIS AI PROJECT DEV & SCAN — AI‑Driven Directory Creator & Structural Validator**
-### **Configuration‑Driven Project Bootstrap Engine for AI‑Assisted Development**  
-**Author:** CVBGOD (MERCWAR FFF)  
-**Edition:** GitHub Publication Release  
 
----
+# 📘 **AVIS PROJECT SCANNER v2.0**  
+## **AI‑Driven Directory Creator • Structural Validator • Source‑Code Merge Printer**
 <img 
-    src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%202/Copilot_20260129_033931.png" 
+    src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%202/Copilot_20260413_222607.png" 
     alt="Robo-Knight Canonical Shine" 
     style="max-width:100%; height:auto;"
 />
 
 
----
-
-## **1. Introduction**
-
-The **AVIS Project Scanner** is a configuration‑driven directory generation and synchronization engine. It reads a simple `.INI` file and constructs an entire project structure automatically.
-
-This system is designed for:
-
-- **Developers** who want deterministic, reproducible project layouts  
-- **AI users** who want to generate directory structures using free AI tools  
-- **Educators** teaching configuration‑driven automation  
-- **Anyone** who wants a clean, declarative way to define a project’s filesystem  
-
-The scanner is intentionally built using **pure Windows Batch**, making it:
-
-- Transparent  
-- Portable  
-- Easy for AI systems to parse  
-- Ideal for training AI to understand project structure  
+**Author:** CVBGOD (MERCWAR FFF)  
+**Edition:** GitHub Publication Release  
+**Core Upgrade:** *Version 2.0 introduces the new `SCAN CREATE SOURCE` + `SOURCE MERGE TXT PRINTER` engine.*
 
 ---
 
-## **2. What Makes This Project Special**
+# 1. Introduction
 
-This repository is not just a tool — it’s a **teaching example**.
+The **AVIS Project Scanner** is a configuration‑driven project bootstrap engine.  
+It reads a simple `.INI` file and constructs your entire project structure automatically — deterministically, reproducibly, and with zero ambiguity.
 
-### **A message from CVBGOD to the reader**
+Version **2.0** introduces:
 
-> *“I built this demo so programmers can learn how to use AI to generate their project directories.  
-> You don’t need expensive tools. You don’t need a full IDE.  
-> You give the AI this INI file, tell it what you want your project to look like, and it writes the structure for you.  
-> Then you run my scanner, and it builds everything on your disk exactly as the AI described it.”*
+- **AI Source Code Copy Mode**  
+- **Full Project Source Printer (`*.TXT` Merge Engine)**  
+- **SCAN CREATE SOURCE** (new directory‑driven source export)  
+- **Improved INI parsing**  
+- **Cleaner logs**  
+- **Faster directory walkers**
 
-This README is written to help you understand:
+This system is built in **pure Windows Batch**, making it:
+
+- transparent  
+- portable  
+- AI‑friendly  
+- ideal for training AI to understand project structure  
+
+---
+
+# 2. What Makes This Project Special
+
+This repository is both a **tool** and a **teaching artifact**.
+
+### A message from CVBGOD:
+
+> *“I built this so programmers can use AI to generate their project directories.  
+> You don’t need expensive tools.  
+> You give the AI the INI file.  
+> The AI writes the structure.  
+> My scanner builds it exactly as described.”*
+
+```
+██████╗ ██╗   ██╗██████╗  ██████╗  ██████╗ ██████╗
+██╔════╝ ██║   ██║██╔══██╗██╔════╝ ██╔═══██╗██╔══██╗
+██║      ██║   ██║██████╔╝██║  ███╗██║   ██║██║  ██║
+██║      ╚██╗ ██╔╝██╔══██╗██║   ██║██║   ██║██║  ██║
+╚██████╗  ╚████╔╝ ██████╔╝╚██████╔╝╚██████╔╝██████╔╝
+ ╚═════╝   ╚═══╝  ╚═════╝  ╚═════╝  ╚═════╝ ╚═════╝
+
+        AVIS PROJECT SCANNER v2.0
+   AI‑DRIVEN STRUCTURE • SOURCE MERGE PRINTER
+          CVBGOD • MERCWAR • FFF
+
+```
+This README explains:
 
 - how the scanner works  
 - how to use AI to generate your directory structure  
 - how to integrate the INI file into your workflow  
+- how the new **Source Merge Printer** works  
 
 ---
 
-<img 
-    src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%201/Copilot_20260129_033032.png" 
-    alt="Robo-Knight Canonical Shine" 
-    style="max-width:100%; height:auto;"
-/>
-## **3. Core Concept**
+# 3. Core Concept
 
-> **A project’s structure should be defined by configuration, not by hand.**
+> **Your project structure should be defined by configuration — not by hand.**
 
-The `.INI` file is the **single source of truth**.  
-Every directory listed in it will be created.
+The `.INI` file is the **single source of truth**.
 
-This approach gives you:
-
-- deterministic project initialization  
-- reproducible environments  
-- AI‑friendly structure definitions  
-- zero ambiguity  
+Every `DIR_*` entry becomes a real directory.  
+Every scan is deterministic.  
+Every export is reproducible.
 
 ---
 
-## **4. System Architecture**
+# 4. System Architecture (v2.0)
 
 ```
 AVIS_PRJ_SCAN_EXEC.BAT
 │
 ├── CONFIG_ROOT.BAT        → Establish root paths and log locations
 ├── CREATE_STRUCT.BAT      → Ensure required directories exist
-├── LOAD_CONFIG.BAT        → Read INI file and create DIR_* paths
+├── LOAD_CONFIG.BAT        → Read INI file and create DIR_* variables
 ├── TMP_CONFIG.BAT         → Generate .BAK configuration snapshot
 ├── LOG_CONFIG.BAT         → Write log headers and metadata
 ├── SCAN_DIR.BAT           → Recursively map all directories
 ├── SCAN_FILE.BAT          → Recursively map all files
+├── AVIS_PRJ_SCAN_REC.BAT  → **NEW**: Merge all project source into a single TXT
 └── SCAN_RESULTS.BAT       → Display summary and verify exports
 ```
 
-Each module is isolated, testable, and replaceable.
+### 🔥 **NEW IN VERSION 2.0**
+- **Source Code Merge Printer**  
+  Creates a single `.TXT` file containing **all source code** from your project.  
+  Perfect for:
+  - AI ingestion  
+  - offline review  
+  - backups  
+  - code audits  
+
+- **SCAN CREATE SOURCE**  
+  A new mode that builds a clean source tree for AI tools.
 
 ---
 
-## **5. The INI File (The Heart of the System)**
+# 5. The INI File (The Heart of the System)
 
 Example:
 
 ```ini
 DIR_AVIS_PRJ_SCAN=c:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN
-      DIR_INCLUDE=v:\htdocs\robo-knight\AI_AVIS_FVS\INCLUDE
-       DIR_OUTPUT=b:\htdocs\robo-knight\AI_AVIS_FVS\OUTPUT
-       DIR_SOURCE=g:\htdocs\robo-knight\AI_AVIS_FVS\SOURCE
-          DIR_LOG=o:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN\LOG
-        IM_CVBGOD=D:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN\LOG
+DIR_INCLUDE=v:\htdocs\robo-knight\AI_AVIS_FVS\INCLUDE
+DIR_OUTPUT=b:\htdocs\robo-knight\AI_AVIS_FVS\OUTPUT
+DIR_SOURCE=g:\htdocs\robo-knight\AI_AVIS_FVS\SOURCE
+DIR_LOG=o:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN\LOG
+IM_CVBGOD=D:\htdocs\robo-knight\AI_AVIS_FVS\AVIS_PRJ_SCAN\LOG
 ```
 
-Every `DIR_*` entry becomes a real directory on disk.
-
+Every entry becomes a real directory.  
+Every directory is validated.  
+Every path is logged.
 
 ---
-## 🚀 Getting Started
-1. **Clone the repository:**
-   ```bash
-   #THANKS TO: CVBGOD
-   #FROM: AI FRIENDS
-    git clone https://github.com.git
-   
----
-## **6. How CVBGOD Helps You Use AI to Generate Your Project Structure**
+<img 
+    src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%201/Copilot_20260129_033032.png" 
+    alt="Robo-Knight Canonical Shine" 
+    style="max-width:100%; height:auto;"
+/>
+# 6. How CVBGOD Designed AI Integration
 
-This is the part most people miss — and the part you wanted explained personally.
+This is the part most people miss.
 
-### **How it works**
+### How you use AI with AVIS:
 
-1. You show the AI your INI file.  
-2. You tell the AI:  
-   > “Use this INI file to update my project structure.”  
+1. Show the AI your `.INI` file.  
+2. Tell the AI:  
+   > “Update my project structure using this INI.”  
 3. The AI edits or generates the `DIR_*` entries.  
 4. You run the scanner.  
-5. The scanner builds the entire directory tree exactly as the AI described it.
+5. The scanner builds the entire structure exactly as the AI described.
 
-### **Why this matters**
+### Why this matters
 
-- You don’t need to manually create folders.  
-- You don’t need to remember paths.  
-- You don’t need to maintain structure by hand.  
-- You can regenerate the entire project layout anytime.  
+- No manual folder creation  
+- No path mistakes  
+- No drift between machines  
+- AI can regenerate the entire project layout anytime  
 
-### **Why CVBGOD built it this way**
+### Why CVBGOD built it this way
 
-> *“I wanted programmers to have a simple file they can hand to any AI — even free ones — and say:  
-> ‘Build my project structure.’  
+> *“I wanted a simple file any AI can understand.  
 > The AI writes the INI.  
-> My scanner builds the project.  
-> That’s it.”*
-
-This is the **bridge** between human developers and AI‑assisted project creation.
+> My scanner builds the universe.”*
 
 ---
 
-## **7. User Interaction Layer**
+# 7. User Interaction Layer
 
-At startup:
+Startup menu:
 
 ```
 [AVIS] SELECT MODE:
        1. CONTINUE WITH SCAN
        2. OPEN CONFIGURATION FILE
+       3. RUN SOURCE MERGE PRINTER (NEW)
 ```
 
-Option **2** opens the INI in Notepad:
+Option **3** runs the new v2.0 merge engine:
 
 ```
-start notepad "%PROJECT_PATH%AVIS_PRJ_SCAN.INI"
+AVIS_PRJ_SCAN_REC.BAT → OUTPUT\SOURCE_MERGE.TXT
 ```
 
 ---
 
-## **8. Logging**
+# 8. Logging
 
 Logs are written to:
 
@@ -182,11 +197,12 @@ Includes:
 - environment metadata  
 - directory map  
 - file map  
+- source merge results  
 - synchronization status  
 
 ---
 
-## **9. Default Template Block**
+# 9. Default Template Block
 
 ```ini
 ; DEFAULT_DIR_AVIS_PRJ_SCAN=c:\YourProject\AVIS_PRJ_SCAN
@@ -197,9 +213,15 @@ Includes:
 ; DEFAULT_DIR_AI=d:\YourProject\AVIS_PRJ_SCAN\AI
 ```
 
-Use this as a starting point for new projects.
+Use this to bootstrap new projects.
 
-## **10. Visual Overview**
+---
+<img 
+    src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%202/Copilot_20260129_033931.png" 
+    alt="Robo-Knight Canonical Shine" 
+    style="max-width:100%; height:auto;"
+/>
+# 10. Visual Overview
 
 ```
 +---------------------------+
@@ -208,6 +230,9 @@ Use this as a starting point for new projects.
            |
            +-- LOG\
            |    └-- ACK_AI_OP.LOG
+           |
+           +-- LOG\
+           |    └-- AVIS_PRJ_SCAN.txt
            |
            +-- INCLUDE\
            |      └-- BEGIN\
@@ -218,49 +243,49 @@ Use this as a starting point for new projects.
            |            └-- KB\
            |
            └-- OUTPUT\
+                  └-- SOURCE_MERGE.TXT   ← NEW
 ```
 
 ---
 
-## **11. Why This Project Exists**
+# 11. Why This Project Exists
 
-This scanner is a **teaching tool** and a **practical tool**.
+The scanner is both **practical** and **educational**.
 
-It shows:
+It demonstrates:
 
-- how AI can generate project structures  
-- how configuration files can control automation  
-- how developers can offload repetitive tasks to AI  
-- how simple formats (INI) can drive complex workflows  
+- AI‑generated project structures  
+- configuration‑driven automation  
+- reproducible environments  
+- deterministic directory creation  
+- simple formats powering complex workflows  
 
 ---
 
-## **12. Conclusion**
+# 12. Conclusion
 
-The **AVIS Project Scanner** is a bridge between:
+The **AVIS Project Scanner v2.0** is a bridge between:
 
 - human developers  
 - AI assistants  
 - reproducible project structures  
+- full‑project source exports  
 
-It is simple, explicit, and powerful — and it gives programmers a way to use **free AI tools** to generate entire project layouts with a single command.
+It is explicit, deterministic, and powerful.
 
 > *“If you see a directory that doesn’t belong, check the INI first.”*  
 — **CVBGOD**
 
 ---
 
-
-### 🛡️ **COPYRIGHT NOTICE**
+# 🛡️ COPYRIGHT NOTICE
 
 © 2026 CVBGOD / Mercwar / Robo‑Knight Universe  
 All Rights Reserved.
-
-This repository, its modules, naming conventions, AVIS law,  
-and the Robo‑Knight / CVBGOD universe are original works  
-created and owned by the repository author.
 
 Unauthorized copying, redistribution, or derivative works  
 are prohibited without explicit permission.
 
 ---
+
+
