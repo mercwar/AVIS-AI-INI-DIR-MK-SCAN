@@ -2,7 +2,7 @@
 # 📘 **AVIS PROJECT SCANNER v2.0**  
 ## **AI‑Driven Directory Creator • Structural Validator • Source‑Code Merge Printer**
 <img 
-    src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%202/Copilot_20260413_222607.png" 
+    src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%204/Copilot_20260413_222607.png" 
     alt="Robo-Knight Canonical Shine" 
     style="max-width:100%; height:auto;"
 />
