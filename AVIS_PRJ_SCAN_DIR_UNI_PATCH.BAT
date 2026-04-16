@@ -4,9 +4,9 @@ setlocal EnableDelayedExpansion
 set "ROOT=%~dp0"
 set "OUT=%ROOT%AVIS_DIR_SCAN.LOG"
 
-:: Safely generate a Carriage Return (CR) character
+:: [CVBGOD] Just run this file in the directory you need to scrape, independantly!
 for /f %%a in ('copy /Z "%~dpf0" nul') do set "CR=%%a"
-:: If copy /Z failed, this fallback creates it using a temporary certutil call
+:: [CVBGOD] Dont click this file in you c drive , unless your doing it because you need to wait for an hour, it will process!
 if "!CR!"=="" (
     for /f %%a in ('"prompt $H&for %%b in (1) do rem"') do set "CR=%%a"
 )
