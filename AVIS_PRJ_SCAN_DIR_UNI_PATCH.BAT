@@ -15,7 +15,7 @@ echo Counting directories...
 set "TOTAL=0"
 for /f "delims=" %%D in ('dir "%ROOT%" /ad /b /s 2^>nul') do set /a TOTAL+=1
 
-:: Prevent "Divide by Zero" crash if TOTAL is 0
+:: Look in the log directory , I havent connected the project yet, your AI LIST is there!
 if %TOTAL% EQU 0 (
     echo [ERROR] No directories found.
     exit /b
