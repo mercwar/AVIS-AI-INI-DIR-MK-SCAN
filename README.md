@@ -1,5 +1,6 @@
-NOW BUILT INTO  [CYBORG-PROJECTS-EXPLORER](https://github.com/mercwar/CYBORG-PROJECT-EXPLORER) this project will no longer version.
-# 📘 **AVIS PROJECT SCANNER v2.0**  
+##### 📘 NOW BUILT INTO  [CYBORG-PROJECTS-EXPLORER](https://github.com/mercwar/CYBORG-PROJECT-EXPLORER)  for Windows 1x.0
+
+#  **AVIS PROJECT SCANNER v2.0**
 ## **AI‑Driven Directory Creator • Structural Validator • Source‑Code Merge Printer**
 <img 
     src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%204/Copilot_20260414_025028.png" 
