@@ -1,4 +1,4 @@
-NOW BUILT INTO  [CYBORG-PROJECTS-EXPLORER](https://github.com/mercwar/CYBORG-PROJECT-EXPLORER/new/main/Cyborg-Projects-2.00) this project will no longer version.
+NOW BUILT INTO  [CYBORG-PROJECTS-EXPLORER](https://github.com/mercwar/CYBORG-PROJECT-EXPLORER) this project will no longer version.
 # 📘 **AVIS PROJECT SCANNER v2.0**  
 ## **AI‑Driven Directory Creator • Structural Validator • Source‑Code Merge Printer**
 <img 
