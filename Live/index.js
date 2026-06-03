@@ -1,7 +1,7 @@
 // --- CONFIG: point this at your repo ---
 const CONFIG = {
   owner: "mercwar",
-  repo: "Nexus",
+  repo: "AVIS-AI-INI-DIR-MK-SCAN",
   branch: "main"
 };
 
