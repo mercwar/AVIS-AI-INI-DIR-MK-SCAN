@@ -1,0 +1,27 @@
+AVIS PROJECT SCAN LOG
+Generated: Mon 04/06/2026  5:54:56.92
+Removable Drive: 
+Project Root: \Apache24\htdocs\FIRE-GEM\KB
+App Root: 
+
+[DIR] C:\Apache24\htdocs\FIRE-GEM\KB\ASSETS 
+[DIR] C:\Apache24\htdocs\FIRE-GEM\KB\BIN 
+[DIR] C:\Apache24\htdocs\FIRE-GEM\KB\CFG 
+[DIR] C:\Apache24\htdocs\FIRE-GEM\KB\DOCS 
+[DIR] C:\Apache24\htdocs\FIRE-GEM\KB\EXPORT 
+[DIR] C:\Apache24\htdocs\FIRE-GEM\KB\INCLUDE 
+[DIR] C:\Apache24\htdocs\FIRE-GEM\KB\lib 
+[DIR] C:\Apache24\htdocs\FIRE-GEM\KB\LOG 
+[DIR] C:\Apache24\htdocs\FIRE-GEM\KB\SRC 
+[DIR] C:\Apache24\htdocs\FIRE-GEM\KB\TMP 
+[DIR] C:\Apache24\htdocs\FIRE-GEM\KB\AVIS_PRJ_SCAN\LOG 
+[DIR] C:\Apache24\htdocs\FIRE-GEM\KB\AVIS_PRJ_SCAN\midi 
+[FILE] C:\Apache24\htdocs\FIRE-GEM\KB\AVIS_PRJ_SCAN.BAT 
+[FILE] C:\Apache24\htdocs\FIRE-GEM\KB\BUILD_ASSISTANT.bat 
+[FILE] C:\Apache24\htdocs\FIRE-GEM\KB\BUILD_AVIS_CORE.sh 
+[FILE] C:\Apache24\htdocs\FIRE-GEM\KB\firegem.php 
+[FILE] C:\Apache24\htdocs\FIRE-GEM\KB\kb_firegem.php 
+[FILE] C:\Apache24\htdocs\FIRE-GEM\KB\kb_index.php 
+[FILE] C:\Apache24\htdocs\FIRE-GEM\KB\launcher.php 
+[FILE] C:\Apache24\htdocs\FIRE-GEM\KB\update.php 
+[FILE] C:\Apache24\htdocs\FIRE-GEM\KB\LOG\kb_build.log 

@@ -1,0 +1,8 @@
+; ============================================
+; AVIS PROJECT SCAN CONFIG
+; Generated: Mon 02/02/2026  6:02:31.81
+; ============================================
+REMDRV=H:
+PROJECT_ROOT=H:\htdocs\robo-knight\Sentinel
+PROJECT_APPROOT=AVIS_PRJ_SCAN\
+
