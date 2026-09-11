@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>📘 README.md — AVIS PROJECT SCANNER | AVIS-AI-INI-DIR-MK-SCAN</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="📘 README.md — AVIS PROJECT SCANNER" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The AVIS Project Scanner is the original scanning engine of the AVIS ecosystem a pure‑batch Win64 tool that recursively analyzes repositories, detects AVIS artifacts, and produces structured index‑only output for AI systems." />
+<meta property="og:description" content="The AVIS Project Scanner is the original scanning engine of the AVIS ecosystem a pure‑batch Win64 tool that recursively analyzes repositories, detects AVIS artifacts, and produces structured index‑only output for AI systems." />
+<link rel="canonical" href="https://mercwar.github.io/AVIS-AI-INI-DIR-MK-SCAN/AVIS_PRJ_SCAN_V1-08/" />
+<meta property="og:url" content="https://mercwar.github.io/AVIS-AI-INI-DIR-MK-SCAN/AVIS_PRJ_SCAN_V1-08/" />
+<meta property="og:site_name" content="AVIS-AI-INI-DIR-MK-SCAN" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="📘 README.md — AVIS PROJECT SCANNER" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"The AVIS Project Scanner is the original scanning engine of the AVIS ecosystem a pure‑batch Win64 tool that recursively analyzes repositories, detects AVIS artifacts, and produces structured index‑only output for AI systems.","headline":"📘 README.md — AVIS PROJECT SCANNER","url":"https://mercwar.github.io/AVIS-AI-INI-DIR-MK-SCAN/AVIS_PRJ_SCAN_V1-08/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/AVIS-AI-INI-DIR-MK-SCAN/assets/css/style.css?v=56d118147e367005f966c244aabfcccd94d283da">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/AVIS-AI-INI-DIR-MK-SCAN/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="https://mercwar.github.io/AVIS-AI-INI-DIR-MK-SCAN/">AVIS-AI-INI-DIR-MK-SCAN</a></h1>
+      
+
+      <h1 id="-readmemd--avis-project-scanner">📘 <strong>README.md — AVIS PROJECT SCANNER</strong></h1>
+
+<h3 id="configuration-driven-project-bootstrap-engine-for-ai-assisted-development"><strong>Configuration-Driven Project Bootstrap Engine for AI-Assisted Development</strong></h3>
+
+<p><strong>Author:</strong> CVBGOD (MERCWAR FFF)
+<strong>Edition:</strong> GitHub Publication Release</p>
+
+<hr />
+
+<h2 id="1️⃣-introduction">1️⃣ Introduction</h2>
+
+<p>The <strong>AVIS Project Scanner</strong> is a configuration-driven directory generation and synchronization engine built entirely in <strong>pure Windows Batch</strong>.</p>
+
+<p>It reads a simple <code class="language-plaintext highlighter-rouge">.INI</code> configuration file and automatically constructs a complete project directory structure based on its contents.</p>
+
+<p>This system is designed for:</p>
+
+<ul>
+  <li>Developers who want deterministic, reproducible project layouts</li>
+  <li>AI users generating project scaffolds from prompts</li>
+  <li>Educators teaching configuration-based automation</li>
+  <li>Anyone who prefers declarative filesystem design</li>
+</ul>
+
+<p>Because it is written in <strong>native Windows Batch</strong>, it is:</p>
+
+<ul>
+  <li>Transparent</li>
+  <li>Portable</li>
+  <li>AI-parsable</li>
+  <li>Dependency-free</li>
+  <li>Easy to audit</li>
+</ul>
+
+<hr />
+
+<h2 id="2️⃣-what-makes-this-project-unique">2️⃣ What Makes This Project Unique</h2>
+
+<p>This repository is both a <strong>utility</strong> and a <strong>teaching framework</strong>.</p>
+
+<p>It demonstrates how:</p>
+
+<ul>
+  <li>A simple configuration file can control a full directory system</li>
+  <li>AI can generate filesystem layouts safely</li>
+  <li>Automation can be driven without external frameworks</li>
+</ul>
+
+<h3 id="a-message-from-cvbgod">A message from CVBGOD</h3>
+
+<blockquote>
+  <p>“You don’t need expensive tools.
+You don’t need a complex IDE.
+Give an AI this INI file.
+Tell it how you want your project structured.
+Run the scanner.
+Your project appears exactly as defined.”</p>
+</blockquote>
+
+<p>This project exists to show how <strong>AI-assisted development can remain deterministic and reproducible</strong>.</p>
+
+<hr />
+
+<h2 id="3️⃣-core-concept">3️⃣ Core Concept</h2>
+
+<blockquote>
+  <p><strong>The filesystem should be defined by configuration — not manual creation.</strong></p>
+</blockquote>
+
+<p>The <code class="language-plaintext highlighter-rouge">.INI</code> file acts as the <strong>single source of truth</strong>.</p>
+
+<p>Every <code class="language-plaintext highlighter-rouge">DIR_*</code> entry becomes a real directory on disk.</p>
+
+<p>Benefits:</p>
+
+<ul>
+  <li>Deterministic initialization</li>
+  <li>Reproducible environments</li>
+  <li>AI-friendly structure definitions</li>
+  <li>Zero ambiguity</li>
+</ul>
+
+<p>If a directory exists, it must exist in the INI.</p>
+
+<hr />
+
+<h2 id="4️⃣-system-architecture">4️⃣ System Architecture</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>AVIS_PRJ_SCAN_EXEC.BAT
+│
+├── CONFIG_ROOT.BAT        → Establish root paths and log locations
+├── CREATE_STRUCT.BAT      → Ensure required directories exist
+├── LOAD_CONFIG.BAT        → Read INI file and create DIR_* paths
+├── TMP_CONFIG.BAT         → Generate configuration snapshot (.BAK)
+├── LOG_CONFIG.BAT         → Write log headers and metadata
+├── SCAN_DIR.BAT           → Recursively map all directories
+├── SCAN_FILE.BAT          → Recursively map all files
+└── SCAN_RESULTS.BAT       → Display summary and verify exports
+</code></pre></div></div>
+
+<p>Each module is:</p>
+
+<ul>
+  <li>Isolated</li>
+  <li>Replaceable</li>
+  <li>Testable</li>
+  <li>Expandable</li>
+</ul>
+
+<p>This modular layout makes the scanner easy to maintain and extend.</p>
+
+<hr />
+
+<h2 id="5️⃣-the-ini-file-system-core">5️⃣ The INI File (System Core)</h2>
+
+<p>Example configuration:</p>
+
+<div class="language-ini highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="py">DIR_AVIS_PRJ_SCAN</span><span class="p">=</span><span class="s">H:</span><span class="se">\h</span><span class="s">tdocs</span><span class="se">\r</span><span class="s">obo-knight</span><span class="se">\A</span><span class="s">I_AVIS_FVS</span><span class="se">\A</span><span class="s">VIS_PRJ_SCAN</span>
+<span class="py">DIR_INCLUDE</span><span class="p">=</span><span class="s">H:</span><span class="se">\h</span><span class="s">tdocs</span><span class="se">\r</span><span class="s">obo-knight</span><span class="se">\A</span><span class="s">I_AVIS_FVS</span><span class="se">\I</span><span class="s">NCLUDE</span>
+<span class="py">DIR_OUTPUT</span><span class="p">=</span><span class="s">H:</span><span class="se">\h</span><span class="s">tdocs</span><span class="se">\r</span><span class="s">obo-knight</span><span class="se">\A</span><span class="s">I_AVIS_FVS</span><span class="se">\O</span><span class="s">UTPUT</span>
+<span class="py">DIR_SOURCE</span><span class="p">=</span><span class="s">H:</span><span class="se">\h</span><span class="s">tdocs</span><span class="se">\r</span><span class="s">obo-knight</span><span class="se">\A</span><span class="s">I_AVIS_FVS</span><span class="se">\S</span><span class="s">OURCE</span>
+<span class="py">DIR_LOG</span><span class="p">=</span><span class="s">H:</span><span class="se">\h</span><span class="s">tdocs</span><span class="se">\r</span><span class="s">obo-knight</span><span class="se">\A</span><span class="s">I_AVIS_FVS</span><span class="se">\A</span><span class="s">VIS_PRJ_SCAN</span><span class="se">\L</span><span class="s">OG</span>
+</code></pre></div></div>
+
+<p>Each <code class="language-plaintext highlighter-rouge">DIR_*</code> entry is:</p>
+
+<ol>
+  <li>Parsed</li>
+  <li>Validated</li>
+  <li>Created if missing</li>
+</ol>
+
+<p>No directory is created outside configuration scope.</p>
+
+<hr />
+
+<h2 id="6️⃣-using-ai-to-generate-your-project-structure">6️⃣ Using AI to Generate Your Project Structure</h2>
+
+<p>This is the intended workflow.</p>
+
+<h3 id="step-by-step">Step-by-Step</h3>
+
+<ol>
+  <li>Provide your <code class="language-plaintext highlighter-rouge">.INI</code> file to an AI system.</li>
+  <li>Instruct the AI to modify or expand <code class="language-plaintext highlighter-rouge">DIR_*</code> entries.</li>
+  <li>Review changes.</li>
+  <li>Save the file.</li>
+  <li>Run the scanner.</li>
+</ol>
+
+<p>The scanner creates exactly what the configuration describes.</p>
+
+<h3 id="why-this-matters">Why This Matters</h3>
+
+<ul>
+  <li>No manual folder creation</li>
+  <li>No path memorization</li>
+  <li>No structure drift</li>
+  <li>Regenerable environments</li>
+</ul>
+
+<p>You can recreate your entire project layout at any time from a single file.</p>
+
+<hr />
+
+<h2 id="7️⃣-user-interaction-layer">7️⃣ User Interaction Layer</h2>
+
+<p>On startup:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[AVIS] SELECT MODE:
+       1. CONTINUE WITH SCAN
+       2. OPEN CONFIGURATION FILE
+       3. READ LOG FILE
+</code></pre></div></div>
+
+<p>Option 2 opens the configuration file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>start notepad "%PROJECT_PATH%AVIS_PRJ_SCAN.INI"
+</code></pre></div></div>
+
+<p>Option 3 opens the log file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>start notepad "%PROJECT_PATH%LOG\ACK_AI_OP.LOG"
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="8️⃣-logging-system">8️⃣ Logging System</h2>
+
+<p>Log output location:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>AVIS_PRJ_SCAN\LOG\ACK_AI_OP.LOG
+</code></pre></div></div>
+
+<p>Log contents include:</p>
+
+<ul>
+  <li>Execution timestamps</li>
+  <li>Environment metadata</li>
+  <li>Directory mapping</li>
+  <li>File mapping</li>
+  <li>Synchronization state</li>
+</ul>
+
+<p>Logs provide a complete trace of scanner operations.</p>
+
+<hr />
+
+<h2 id="9️⃣-default-template-block">9️⃣ Default Template Block</h2>
+
+<p>Starter template:</p>
+
+<div class="language-ini highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">; DEFAULT_DIR_AVIS_PRJ_SCAN=c:\YourProject\AVIS_PRJ_SCAN
+; DEFAULT_DIR_INCLUDE=v:\YourProject\INCLUDE
+; DEFAULT_DIR_OUTPUT=b:\YourProject\OUTPUT
+; DEFAULT_DIR_SOURCE=g:\YourProject\SOURCE
+; DEFAULT_DIR_LOG=o:\YourProject\AVIS_PRJ_SCAN\LOG
+; DEFAULT_DIR_AI=d:\YourProject\AVIS_PRJ_SCAN\AI
+</span></code></pre></div></div>
+
+<p>Uncomment and modify as needed.</p>
+
+<hr />
+
+<h2 id="-visual-structure-overview">🔟 Visual Structure Overview</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+---------------------------+
+|      AVIS_PRJ_SCAN        |
++---------------------------+
+           |
+           +-- LOG\
+           |    └-- ACK_AI_OP.LOG
+           |
+           +-- INCLUDE\
+           |      └-- BEGIN\
+           |            └-- KB\
+           |
+           +-- SOURCE\
+           |      └-- BEGIN\
+           |            └-- KB\
+           |
+           └-- OUTPUT\
+</code></pre></div></div>
+
+<p>This structure is entirely configuration-driven.</p>
+
+<hr />
+
+<h2 id="1️⃣1️⃣-design-philosophy">1️⃣1️⃣ Design Philosophy</h2>
+
+<p>This project demonstrates:</p>
+
+<ul>
+  <li>Configuration over manual control</li>
+  <li>Automation through simple formats</li>
+  <li>AI-assisted reproducibility</li>
+  <li>Deterministic scaffolding</li>
+</ul>
+
+<p>It is intentionally minimalistic and explicit.</p>
+
+<hr />
+
+<h2 id="1️⃣2️⃣-conclusion">1️⃣2️⃣ Conclusion</h2>
+
+<p>The <strong>AVIS Project Scanner</strong> bridges:</p>
+
+<ul>
+  <li>Human developers</li>
+  <li>AI assistants</li>
+  <li>Reproducible filesystem architecture</li>
+</ul>
+
+<p>It is:</p>
+
+<ul>
+  <li>Simple</li>
+  <li>Deterministic</li>
+  <li>Transparent</li>
+  <li>Regenerable</li>
+</ul>
+
+<blockquote>
+  <p>“If you see a directory, check the INI first.”
+— <strong>CVBGOD</strong></p>
+</blockquote>
+
+
+      
+      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+        This site is open source. <a href="https://github.com/mercwar/AVIS-AI-INI-DIR-MK-SCAN/edit/main/AVIS_PRJ_SCAN_V1-08/Readme.md">Improve this page</a>.
+      </div>
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>

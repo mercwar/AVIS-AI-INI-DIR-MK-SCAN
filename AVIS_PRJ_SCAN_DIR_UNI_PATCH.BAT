@@ -1,4 +1,4 @@
-re @echo off
+@echo off
 setlocal EnableDelayedExpansion
 
 set "ROOT=%~dp0"
